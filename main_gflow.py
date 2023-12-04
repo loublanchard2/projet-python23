@@ -4,13 +4,13 @@ from gflow.utils.simulation_utils import run_simulation
 
 if __name__ == "__main__":
     file_name = "cases.json"
-    case_name = "random20"
+    case_name = "random5"
 
-    case = Cases.get_case(file_name=file_name, case_name=case_name)
+    case = Cases.get_case(filename=file_name, case_name=case_name)
 
     run_simulation(
         case,
-        t=2000,  # maximum number of timesteps
+        t=20000,  # maximum number of timesteps
         update_every=1,  # leave as 1
         stop_at_collision=False,  # leave as False
         max_avoidance_distance=999999,  # larger than simulation domain
