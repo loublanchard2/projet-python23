@@ -1,0 +1,59 @@
+{
+  "alpha": {
+    "buildings": [
+      {
+        "name": "Building 1",
+        "verticies": [
+          [0.974927, -0.22252, 1.2],
+          []
+        ]
+      }
+    ],
+    "buildings": [
+        {
+          "name": "Building 2",
+          "verticies": [
+            [0.974927, -0.22252, 1.2]
+          ]
+        }
+    ],
+      "buildings": [
+        {
+          "name": "Building 3",
+          "verticies": [
+            [0.974927, -0.22252, 1.2]
+          ]
+        }
+    ],
+    "vehicles": [
+      {
+        "name": "V1",
+        "position": [-3.0, 0.0001, 0.5],
+        "target": [3.0, 0.0, 0.5],
+        "orient": 0.5
+        }
+    ],
+    "vehicles": [
+        {
+          "name": "V2",
+          "position": [-3.0, 0.0001, 0.5],
+          "target": [3.0, 0.0, 0.5],
+          "orient": 0.5
+        }
+    ],
+    "vehicles": [
+        {
+          "name": "V3",
+          "position": [-3.0, 0.0001, 0.5],
+          "target": [3.0, 0.0, 0.5],
+          "orient": 0.5
+        }
+    ],
+    "modele": [
+      {
+        "building": [],
+        "vehicles": []
+      }
+    ]
+  }
+}
