@@ -27,7 +27,7 @@ class ClientVoliere(QObject):
 if __name__ == "__main__":
     import sys
     app = QApplication([])
-    vvt = ClientVoliere()
-    vvt.drone_data.connect(print)
-    app.aboutToQuit.connect(vvt.stop)
+    voliere = ClientVoliere()
+    voliere.drone_data.connect(print)
+    app.aboutToQuit.connect(voliere.stop)
     sys.exit(app.exec_())
